@@ -7,9 +7,9 @@
 //
 
 #import "ViewController.h"
-
+#import "HumanView.h"
 @interface ViewController ()
-
+@property (nonatomic, strong) HumanView *humanView;
 @end
 
 @implementation ViewController
@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.humanView = [[HumanView alloc]initWithFrame:self.view.frame];
+    [self.view addSubview:_humanView];
 }
 
 

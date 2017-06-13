@@ -16,6 +16,7 @@
 		71188FC21EE013C4000BBF10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71188FC01EE013C4000BBF10 /* LaunchScreen.storyboard */; };
 		71188FCD1EE013C4000BBF10 /* YellowHumanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71188FCC1EE013C4000BBF10 /* YellowHumanTests.m */; };
 		71188FD81EE013C4000BBF10 /* YellowHumanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71188FD71EE013C4000BBF10 /* YellowHumanUITests.m */; };
+		71188FE71EE0143E000BBF10 /* HumanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71188FE61EE0143E000BBF10 /* HumanView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		71188FD31EE013C4000BBF10 /* YellowHumanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YellowHumanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71188FD71EE013C4000BBF10 /* YellowHumanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YellowHumanUITests.m; sourceTree = "<group>"; };
 		71188FD91EE013C4000BBF10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71188FE51EE0143E000BBF10 /* HumanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HumanView.h; sourceTree = "<group>"; };
+		71188FE61EE0143E000BBF10 /* HumanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HumanView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				71188FB31EE013C4000BBF10 /* AppDelegate.m */,
 				71188FB51EE013C4000BBF10 /* ViewController.h */,
 				71188FB61EE013C4000BBF10 /* ViewController.m */,
+				71188FE51EE0143E000BBF10 /* HumanView.h */,
+				71188FE61EE0143E000BBF10 /* HumanView.m */,
 				71188FB81EE013C4000BBF10 /* Main.storyboard */,
 				71188FBE1EE013C4000BBF10 /* Assets.xcassets */,
 				71188FC01EE013C4000BBF10 /* LaunchScreen.storyboard */,
@@ -283,6 +288,7 @@
 				71188FBD1EE013C4000BBF10 /* YellowHuman.xcdatamodeld in Sources */,
 				71188FB41EE013C4000BBF10 /* AppDelegate.m in Sources */,
 				71188FB11EE013C4000BBF10 /* main.m in Sources */,
+				71188FE71EE0143E000BBF10 /* HumanView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
